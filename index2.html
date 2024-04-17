@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>page 2</title>
+    <style >
+        body{
+            color: white;
+            background-color: navy;
+        }
+        .judul{
+            text-align: center;
+            color: gold;
+            font-size: 150%;
+        }
+        .jurusan{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<h1 class="judul"> Silahkan isi</h1>
+
+<form action="proses.php" method="post">
+    <P>
+        <label class="nama">Nama :</label>
+        <input type="text" name="nama" placeholder="Nama...">
+    </P>
+    <p>
+        <label class="NIM">NIM :</label>
+        <input type="text" name="NIM" placeholder="NIM...">
+    </p>
+
+    <input type="checkbox" name="D3" id="DIII" value="D3">
+    <label for="D3">D3/DIII</label><br>
+    <input type="checkbox" name="D4" id="DIV" value="D4">
+    <label for="D4">D4/DIV</label><br>
+    <br>
+
+    <label for="jurusan" class="jurusan"> Jurusan : </label>
+    <select name="Jurusan" id="Jurusan" placeholder="Pilih...">
+       	<option class="jurusan">Pilih</option>
+		<option value="jurusan">Perancangan Jalan dan Jembatan</option>
+		<option value="jurusan">Teknik Mesin Produksi dan Perawatan </option>
+		<option value="jurusan">Teknik Energi</option>
+		<option value="jurusan">Teknologi Kimia Industri</option>
+		<option value="jurusan">Akuntansi Sektor Publik (Kampus Palembang, PSDKU OKU dan PSDKU Siak RIAU)</option>
+		<option value="jurusan">Teknik Elektro</option>
+		<option value="jurusan">Teknik Telekomunikasi</option>
+		<option value="jurusan">Usaha Perjalanan Wisata</option>
+		<option value="jurusan">Manajemen Bisnis</option>
+		<option value="jurusan">Teknologi Informatika Multimedia Digital</option>
+		<option value="jurusan">Bisnis Digital</option>
+		<option value="jurusan">Teknologi Produksi Tanaman Perkebunan (Kampus Banyuasin)</option>
+		<option value="jurusan">Teknik Sipil</option>
+		<option value="jurusan">Teknik Mesin</option>
+		<option value="jurusan">Teknik Listrik</option>
+		<option value="jurusan">Teknik Elektronika</option>
+		<option value="jurusan">Teknik Telekomunikasi</option>
+		<option value="jurusan">Teknik Kimia (Kampus Palembang dan PSDKU SIAK RIAU)</option>
+		<option value="jurusan">Akuntansi</option>
+		<option value="jurusan">Administrasi Bisnis (Kampus Palembang dan PSDKU OKU)</option>
+		<option value="jurusan">Teknik Komputer</option>
+		<option value="jurusan">Manajemen Informatika</option>
+		<option value="jurusan">Bahasa Inggris</option>
+		<option value="jurusan">Teknologi Pangan (Kampus Banyuasin)</option>
+    </select>
+    <br>
+    <br>
+    <label> Semester </label>
+    <input type="number" name="Semester" class="Semester" max="8" min="0" placeholder="...">
+    <br>
+    <br>
+    <label> Kelas :</label>
+    <input type="text" name="Kelas" placeholder="Kelas">
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="submit">
+</form>
+
+</body>
+</html>
